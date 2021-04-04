@@ -1,0 +1,48 @@
+body {
+    color: #000000;
+    background: url(3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 50px 0;
+}
+h1 {
+    font-family: Tahoma, sans-serif;
+    text-transform: none;
+    text-align: left;
+    font-size: 500%;
+    color:  #990000;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: Tahoma, sans-serif;
+    text-transform: none;
+    text-align: left;
+    font-size: 220%;
+    color:  #ffe6e6;
+}
+h2 {
+    font-family: Tahoma, sans-serif;
+    text-transform: none;
+    text-align: left;
+    font-size: 180%;
+    color:  #800000;
+    margin: 100;
+    padding: 0;
+}
+a:link, a:visited {
+    font-family: Tahoma, sans-serif;
+    font-size: 200%;
+    background-color: #4d2800;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    font-family: Tahoma, sans-serif;
+    background-color: #990000;
+}
