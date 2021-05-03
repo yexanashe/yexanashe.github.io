@@ -1,0 +1,43 @@
+body {
+    color: #000000;
+    background: url(3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 50px 0;
+}
+#mybeat {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 40px 60px;
+    background: #ffe6cc;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+h1 {
+    font-family: Tahoma, sans-serif;
+    text-transform: none;
+    text-align: left;
+    font-size: 300%;
+    color:  #990000;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: Tahoma, sans-serif;
+    text-transform: none;
+    text-align: left;
+    font-size: 140%;
+    color:  #990000;
+}
+h2 {
+    font-family: Tahoma, sans-serif;
+    text-transform: none;
+    text-align: left;
+    font-size: 180%;
+    color:  #800000;
+    margin: 100;
+    padding: 0;
+}
