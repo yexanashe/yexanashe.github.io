@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Jak En Poi</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Jak En Poi</h1>
+        </header>
+
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Welcome!</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="rock.png" alt="rock" style="width:100px;height:100px;">
+            </div>
+            <div class="choice" id="p">
+                <img src="paper.png" alt="paper" style="width:100px;height:100px;">
+            </div>
+            <div class="choice" id="s">
+                <img src="scissor.png" alt="scissor" style="width:100px;height:100px;">
+            </div>
+        </div>
+
+        <p id="action-message">Make your move.</p>
+        <script src="index.js" charset="utf-8"></script>
+    </body>
+</html>
